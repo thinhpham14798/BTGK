@@ -10,7 +10,7 @@
 namespace Beginning {
     
     
-    public partial class Users {
+    public partial class Edit {
         
         /// <summary>
         /// form1 control.
@@ -22,13 +22,13 @@ namespace Beginning {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// txtUserName control.
+        /// username control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txtUserName;
+        protected global::System.Web.UI.WebControls.Label username;
         
         /// <summary>
         /// txtPassword control.
@@ -40,21 +40,12 @@ namespace Beginning {
         protected global::System.Web.UI.WebControls.TextBox txtPassword;
         
         /// <summary>
-        /// btnThem control.
+        /// btnDoi control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btnThem;
-        
-        /// <summary>
-        /// data control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView data;
+        protected global::System.Web.UI.WebControls.Button btnDoi;
     }
 }

@@ -72,6 +72,9 @@
       <DependentUpon>DOTNET.mdf</DependentUpon>
     </Content>
     <Content Include="Default.aspx" />
+    <Content Include="del.png" />
+    <Content Include="doipass.png" />
+    <Content Include="Edit.aspx" />
     <Content Include="Exit.aspx" />
     <Content Include="LocDuLieu.aspx" />
     <Content Include="Login.aspx" />
@@ -86,6 +89,13 @@
     </Compile>
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
     </Compile>
     <Compile Include="Exit.aspx.cs">
       <DependentUpon>Exit.aspx</DependentUpon>
